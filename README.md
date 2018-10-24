@@ -8,4 +8,12 @@ Data Analysis library developed to change how we understand Education. Let's get
 3) The folder `src` contains the necessary libs
 4) The folder `reports` contains useful conclusions 
 
-### developed by physicists
+
+# How to use
+
+1) Create a folder `data` at the root of this project (This folder must have the `bcggammachallenge` folder dataset)
+2) Install pipenv, version 2018.7.1
+3) Run `pipenv install` to install dependencies located at Pipfile
+4) Run `pipenv shell` to enter the environment variable
+
+##### developed by physicists
