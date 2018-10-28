@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[31]:
+# In[1]:
 
 
 import pandas as pd
@@ -42,76 +42,76 @@ def calculate_categorical_correlation(df):
 
 # ### Dados Alexandre 
 
-# In[ ]:
-
-
-path = '../../data/bcggammachallenge'
-
-
 # In[4]:
 
 
-#Dados iniciais
-alexandre_inicio_2015 = pd.read_csv(path + '/bases_ale/anos iniciais/ideb_municipios_2015_ai.csv')
-alexandre_inicio_2017 = pd.read_csv(path + 'bases_ale/anos iniciais/ideb_municipios_2017_ai.csv')
+path = '../../data/'
 
-# Dados finais
-alexandre_final_2015 = pd.read_csv(path + 'base_ale/anos finais/ideb_municipios_2015_af.csv')
-alexandre_final_2017 = pd.read_csv(path + 'base_ale/anos finais/ideb_municipios_2017_af.csv')
-
-
-# ### Dados Lidia
 
 # In[5]:
 
 
 #Dados iniciais
-lidia_inicio_2007 = pd.read_csv(path + 'bases_lidia/Anos iniciais/ideb_escola_2007_ai.csv')
-lidia_inicio_2009 = pd.read_csv(path + 'bases_lidia/Anos iniciais/ideb_escola_2009_ai.csv')
-lidia_inicio_2011 = pd.read_csv(path + 'bases_lidia/Anos iniciais/ideb_escola_2011_ai.csv')
-lidia_inicio_2013 = pd.read_csv(path + 'bases_lidia/Anos iniciais/ideb_escola_2013_ai.csv')
-lidia_inicio_2015 = pd.read_csv(path + 'bases_lidia/Anos iniciais/ideb_escola_2015_ai.csv')
-lidia_inicio_2017 = pd.read_csv(path + 'bases_lidia/Anos iniciais/ideb_escola_2017_ai.csv')
+alexandre_inicio_2015 = pd.read_csv(path + 'bases_ale/anos_iniciais/ideb_municipios_2015_ai.csv')
+alexandre_inicio_2017 = pd.read_csv(path + 'bases_ale/anos_iniciais/ideb_municipios_2017_ai.csv')
 
 # Dados finais
-lidia_final_2007 = pd.read_csv(path + 'bases_lidia/Anos finais/ideb_escola_2007_af.csv')
-lidia_final_2009 = pd.read_csv(path + 'bases_lidia/Anos finais/ideb_escola_2009_af.csv')
-lidia_final_2011 = pd.read_csv(path + 'bases_lidia/Anos finais/ideb_escola_2011_af.csv')
-lidia_final_2013 = pd.read_csv(path + 'bases_lidia/Anos finais/ideb_escola_2013_af.csv')
-lidia_final_2015 = pd.read_csv(path + 'bases_lidia/Anos finais/ideb_escola_2015_af.csv')
-lidia_final_2017 = pd.read_csv(path + 'bases_lidia/Anos finais/ideb_escola_2017_af.csv')
+alexandre_final_2015 = pd.read_csv(path + 'bases_ale/anos_finais/ideb_municipios_2015_af.csv')
+alexandre_final_2017 = pd.read_csv(path + 'bases_ale/anos_finais/ideb_municipios_2017_af.csv')
 
 
-# ### Dados William
+# ### Dados Lidia
 
 # In[6]:
 
 
 #Dados iniciais
-william_inicio_2005 = pd.read_csv(path + 'base_william/ano inicial/dados2005_inic.csv')
-william_inicio_2007 = pd.read_csv(path + 'base_william/ano inicial/dados2007_inic.csv')
-william_inicio_2009 = pd.read_csv(path + 'base_william/ano inicial/dados2009_inic.csv')
-william_inicio_2011 = pd.read_csv(path + 'base_william/ano inicial/dados2011_inic.csv')
-william_inicio_2013 = pd.read_csv(path + 'base_william/ano inicial/dados2013_inic.csv')
-william_inicio_2015 = pd.read_csv(path + 'base_william/ano inicial/dados2015_inic.csv')
-william_inicio_2017 = pd.read_csv(path + 'base_william/ano inicial/dados2017_inic.csv')
+lidia_inicio_2007 = pd.read_csv(path + 'bases_lidia/anos_iniciais/ideb_escola_2007_ai.csv')
+lidia_inicio_2009 = pd.read_csv(path + 'bases_lidia/anos_iniciais/ideb_escola_2009_ai.csv')
+lidia_inicio_2011 = pd.read_csv(path + 'bases_lidia/anos_iniciais/ideb_escola_2011_ai.csv')
+lidia_inicio_2013 = pd.read_csv(path + 'bases_lidia/anos_iniciais/ideb_escola_2013_ai.csv')
+lidia_inicio_2015 = pd.read_csv(path + 'bases_lidia/anos_iniciais/ideb_escola_2015_ai.csv')
+lidia_inicio_2017 = pd.read_csv(path + 'bases_lidia/anos_iniciais/ideb_escola_2017_ai.csv')
+
+# Dados finais
+lidia_final_2007 = pd.read_csv(path + 'bases_lidia/anos_finais/ideb_escola_2007_af.csv')
+lidia_final_2009 = pd.read_csv(path + 'bases_lidia/anos_finais/ideb_escola_2009_af.csv')
+lidia_final_2011 = pd.read_csv(path + 'bases_lidia/anos_finais/ideb_escola_2011_af.csv')
+lidia_final_2013 = pd.read_csv(path + 'bases_lidia/anos_finais/ideb_escola_2013_af.csv')
+lidia_final_2015 = pd.read_csv(path + 'bases_lidia/anos_finais/ideb_escola_2015_af.csv')
+lidia_final_2017 = pd.read_csv(path + 'bases_lidia/anos_finais/ideb_escola_2017_af.csv')
+
+
+# ### Dados William
+
+# In[7]:
+
+
+#Dados iniciais
+william_inicio_2005 = pd.read_csv(path + 'bases_william/anos_iniciais/dados2005_inic.csv')
+william_inicio_2007 = pd.read_csv(path + 'bases_william/anos_iniciais/dados2007_inic.csv')
+william_inicio_2009 = pd.read_csv(path + 'bases_william/anos_iniciais/dados2009_inic.csv')
+william_inicio_2011 = pd.read_csv(path + 'bases_william/anos_iniciais/dados2011_inic.csv')
+william_inicio_2013 = pd.read_csv(path + 'bases_william/anos_iniciais/dados2013_inic.csv')
+william_inicio_2015 = pd.read_csv(path + 'bases_william/anos_iniciais/dados2015_inic.csv')
+william_inicio_2017 = pd.read_csv(path + 'bases_william/anos_iniciais/dados2017_inic.csv')
 
 
 # Dados finais
-william_final_2005 = pd.read_csv(path + 'base_william/ano final/dados2005_fim.csv')
-william_final_2007 = pd.read_csv(path + 'base_william/ano final/dados2007_fim.csv')
-william_final_2009 = pd.read_csv(path + 'base_william/ano final/dados2009_fim.csv')
-william_final_2011 = pd.read_csv(path + 'base_william/ano final/dados2011_fim.csv')
-william_final_2013 = pd.read_csv(path + 'base_william/ano final/dados2013_fim.csv')
-william_final_2015 = pd.read_csv(path + 'base_william/ano final/dados2015_fim.csv')
-william_final_2017 = pd.read_csv(path + 'base_william/ano final/dados2017_fim.csv')
+william_final_2005 = pd.read_csv(path + 'bases_william/anos_finais/dados2005_fim.csv')
+william_final_2007 = pd.read_csv(path + 'bases_william/anos_finais/dados2007_fim.csv')
+william_final_2009 = pd.read_csv(path + 'bases_william/anos_finais/dados2009_fim.csv')
+william_final_2011 = pd.read_csv(path + 'bases_william/anos_finais/dados2011_fim.csv')
+william_final_2013 = pd.read_csv(path + 'bases_william/anos_finais/dados2013_fim.csv')
+william_final_2015 = pd.read_csv(path + 'bases_william/anos_finais/dados2015_fim.csv')
+william_final_2017 = pd.read_csv(path + 'bases_william/anos_finais/dados2017_fim.csv')
 
 
 # # Retirar dados NaN
 
 # ### Lidia 
 
-# In[7]:
+# In[8]:
 
 
 print(lidia_inicio_2007.shape)
@@ -151,7 +151,7 @@ print(lidia_final_2017.shape)
 print(lidia_final_2017.count()-lidia_final_2017.shape[0])
 
 
-# In[8]:
+# In[9]:
 
 
 print('antes', lidia_inicio_2007.shape)
@@ -229,7 +229,7 @@ print('dados limpo',lidia_final_2017.shape)
 
 # ### Alexandre 
 
-# In[9]:
+# In[10]:
 
 
 print(alexandre_inicio_2015.shape)
@@ -247,7 +247,7 @@ print(alexandre_final_2017.count()-alexandre_final_2017.shape[0])
 
 # ### William
 
-# In[10]:
+# In[11]:
 
 
 print(william_inicio_2007.shape)
@@ -291,7 +291,7 @@ print(william_final_2017.count()-william_final_2017.shape[0])
 
 # ### Lidia
 
-# In[11]:
+# In[12]:
 
 
 lidia_corr__inicio_2007 = calculate_pearson(lidia_inicio_2007)
@@ -321,7 +321,7 @@ lidia_corr__final_2017 = calculate_pearson(lidia_final_2017)
 lidia_corr__final_2017 = lidia_corr__final_2017.sort_values(by=['correlation_with_ideb'], ascending=False)
 
 
-# In[12]:
+# In[13]:
 
 
 print(lidia_corr__inicio_2007)
@@ -341,7 +341,7 @@ print(lidia_corr__inicio_2017)
 
 # ### Variaveis categoricas
 
-# In[13]:
+# In[14]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[0]
@@ -352,7 +352,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[199]:
+# In[15]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[3]
@@ -363,7 +363,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[203]:
+# In[16]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[7]
@@ -374,7 +374,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[204]:
+# In[17]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[8]
@@ -385,7 +385,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[205]:
+# In[18]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[9]
@@ -396,7 +396,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[206]:
+# In[ ]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[10]
@@ -407,7 +407,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[207]:
+# In[ ]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[11]
@@ -418,7 +418,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[208]:
+# In[ ]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[12]
@@ -429,7 +429,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[202]:
+# In[ ]:
 
 
 var = calculate_categorical_correlation(lidia_inicio_2007)[6]
@@ -440,7 +440,7 @@ fig = sns.boxplot( x=var,y="ideb", data=data)
 fig.axis(ymin=0, ymax=10);
 
 
-# In[17]:
+# In[ ]:
 
 
 print('Before getting dummys',lidia_inicio_2007.shape)
@@ -448,21 +448,21 @@ lidia_inicio_2007 = pd.get_dummies(lidia_inicio_2007)
 print('after getting dummys',lidia_inicio_2007.shape)
 
 
-# In[23]:
+# In[ ]:
 
 
 y = lidia_inicio_2007['ideb']
 x = lidia_inicio_2007.drop(columns=['ideb'])
 
 
-# In[26]:
+# In[ ]:
 
 
 # Partition the dataset in train + validation sets
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size = 0.3,random_state=1)
 
 
-# In[29]:
+# In[ ]:
 
 
 # Define error measure for official scoring : RMSE
@@ -544,6 +544,12 @@ imp_coefs = pd.concat([coefs.sort_values().head(10),
 imp_coefs.plot(kind = "barh")
 plt.title("Coefficients in the Ridge Model")
 plt.show()
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
