@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Libraries
+# Esse notebook faz a junção de cada dataset de município com a coluna do `ideb` do dataset do ideb. O objetivo dessa junção é analisar como as variáveis de municípios impactam no ideb, que é a nossa variável resposta. 
+
+# # Bibliotecas
 
 # In[17]:
 
@@ -20,7 +22,7 @@ pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 
 
-# # Dataset
+# # Carrega Datasets
 
 # In[19]:
 
@@ -135,7 +137,7 @@ print(df_result_2017[df_result_2017['ideb'] != '-']['ideb'].max())
 print(df_result_2017[df_result_2017['ideb'] != '-']['ideb'].min())
 
 
-# ## Correlações linear entre todas as variáveis numéricas com o Ideb
+# # Correlação linear entre todas as variáveis numéricas com o Ideb
 
 # In[131]:
 

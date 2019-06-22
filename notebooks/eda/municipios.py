@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Libraries
+# Análise simples dos dados de municípios
+
+# # Bibliotecas
 
 # In[1]:
 
@@ -20,7 +22,7 @@ pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 
 
-# # Dataset
+# # Carrega Datasets
 
 # In[3]:
 
