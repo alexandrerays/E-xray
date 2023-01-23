@@ -1,7 +1,11 @@
-# E-xray
+## Problem and Context
+We analyzed public educational indicators in order to extract actionable insights. Check the result in the reports folder.
+
+
+## E-xray
 Data Analysis library developed to change how we understand Education. Let's get an X-ray from education sector !
 
-# Project structure
+## Project structure
 
 1) The folder `data` contains all datasets.
 2) The folder `notebooks` contains all the necessary notebooks
@@ -12,7 +16,7 @@ Data Analysis library developed to change how we understand Education. Let's get
 4) The folder `reports` contains useful conclusions 
 
 
-# How to use
+## How to use
 
 1) Move the `bcggammachallenge` folder inside the `data` folder)
 2) Install pipenv, version 2018.7.1
