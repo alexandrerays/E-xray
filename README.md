@@ -1,6 +1,12 @@
 ## Problem and Context
-We analyzed public educational indicators in order to extract actionable insights. Check the result in the reports folder.
+We analyzed public educational indicators in order to extract actionable insights for the public education in Brazil. 
 
+Check the result in the reports folder.
+
+* [Results](https://github.com/alexandrerays/E-xray/blob/master/reports/apresentacao_resultados.pdf)
+* [Paper - Big Data and education - Published by BCG Gamma](https://github.com/alexandrerays/E-xray/blob/master/reports/Artigo-BCG-GAMMA-Challenge_tcm14-223999.pdf)
+
+This was the BCG Gamma Challenge 2018, a competition organized by BCG Gamma.
 
 ## E-xray
 Data Analysis library developed to change how we understand Education. Let's get an X-ray from education sector !
